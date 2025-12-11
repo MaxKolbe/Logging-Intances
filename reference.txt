@@ -1,0 +1,12 @@
+logger1.js - Vanilla logger
+logger2.js - Color coded logger for CLI
+logger3.js - Custom format
+logger4.js - Logging into a file
+logger5.js - Logging to multiple Files based on log levels
+logger6.js - Loggin each level into different files 
+logger7.js - Log rotation
+logger8.js - Log rotation using multiple transports 
+logger9.js - Log rotation using typescript 
+logger10.js - Add metadata to logs
+logger11.js - Logging errors
+logger12.js - Handling uncaught exceptions and uncaught promise rejections
