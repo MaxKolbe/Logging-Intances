@@ -16,5 +16,5 @@ const loggerxii = winston.createLogger({
 });
 
 // OR
-loggerxii.exitOnError = false;
+// loggerxii.exitOnError = false;
 export default loggerxii;
