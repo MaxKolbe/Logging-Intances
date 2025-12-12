@@ -5,7 +5,7 @@
 
 // const transport: DailyRotateFile = new DailyRotateFile({
 //     filename: 'application-%DATE%.log',
-//     datePattern: 'YYYY-MM-DD-HH',
+//     datePattern: 'YYYY-MM-DD-HH', // rotates hourly
 //     zippedArchive: true,
 //     maxSize: '20m',
 //     maxFiles: '14d'

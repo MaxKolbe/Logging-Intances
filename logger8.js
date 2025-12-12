@@ -4,7 +4,7 @@ import 'winston-daily-rotate-file';
 
   const transport1 = new winston.transports.DailyRotateFile({
     filename: 'application-%DATE%.log',
-    datePattern: 'YYYY-MM-DD-HH',
+    datePattern: 'YYYY-MM-DD-HH', // rotates hourly
     zippedArchive: true,
     maxSize: '20m',
     maxFiles: '14d'
@@ -13,7 +13,7 @@ import 'winston-daily-rotate-file';
   const transport2 = new winston.transports.DailyRotateFile({
     level: 'error',
     filename: 'application-error-%DATE%.log',
-    datePattern: 'YYYY-MM-DD-HH',
+    datePattern: 'YYYY-MM-DD-HH', // rotates hourly
     zippedArchive: true,
     maxSize: '20m',
     maxFiles: '14d'
